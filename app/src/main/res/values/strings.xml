@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Roommate Finder</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="emailInput">Email giriniz</string>
+    <string name="passwordInput">Şifre giriniz</string>
+    <string name="signIn">GİRİŞ YAP</string>
+    <string name="nameInput">İsminizi Giriniz</string>
+    <string name="surnameInput">Soyadınızı giriniz</string>
+    <string name="uploadImage">FOTOĞRAF YÜKLE</string>
+    <string name="signUp">KAYIT OL</string>
+    <string name="startDate">Giriş Tarihinizi Giriniz</string>
+    <string name="gradYearInput">Mezuniyet Yılınızı Giriniz</string>
+    <string name="description">Duyurunuzu giriniz.</string>
+    <string name="sendAnnouncement">GÖNDER</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="update_password_second">Tekrar şifre giriniz</string>
+    <string name="update_password_button">GÜNCELLE</string>
+    <string name="old_password">Eski şifrenizi giriniz</string>
+    <string name="change_password">ŞİFRE DEĞİŞTİR</string>
+    <string name="show_hide_password">Show/Hide Password</string>
+    <string name="title_activity_update_password">UpdatePassword</string>
+    <string name="title_activity_bottom_nav">Oda Arkadaşı Bul</string>
+    <string name="title_home">Akış</string>
+    <string name="title_notifications">Bildirimler</string>
+    <string name="title_profile">Profil</string>
+    <string name="phone_no_input">Telefon Numarası giriniz</string>
+    <string-array name="years_array">
+        <item>Hazırlık</item>
+        <item>1. Sınıf</item>
+        <item>2. Sınıf</item>
+        <item>3. Sınıf</item>
+        <item>4. Sınıf</item>
+    </string-array>
+    <string-array name="status_array">
+        <item>Kalacak Ev/Oda arıyor</item>
+        <item>Ev/Oda arkadaşı arıyor</item>
+        <item>Aramıyor</item>
+    </string-array>
+    <string name="year_prompt">Sınıf</string>
+    <string name="departmen_input">Bölümünüzü giriniz</string>
+    <string name="status_prompt">Durum</string>
+    <string name="range_input">Kampüse istenen/olan ev uzaklığı(KM)</string>
+    <string name="duration_input">Evde kalacağı/paylaşabileceği süre</string>
+    <string name="save_button">KAYDET</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="match_button">EŞLEŞME</string>
+    <string name="show_map_button">HARİTADA GÖSTER</string>
+    <string name="add_location">LOKASYON EKLE</string>
+</resources>

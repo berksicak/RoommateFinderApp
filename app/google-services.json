@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723850454198",
+    "project_id": "roommatefinderapp-b53c6",
+    "storage_bucket": "roommatefinderapp-b53c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723850454198:android:4fcf3be0a7ccd6982bb217",
+        "android_client_info": {
+          "package_name": "com.example.roommatefinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723850454198-t8oheq7cjr247i03r48gm7lo7ii22hgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPnFfUwi70vOjXIPonBBtWTHnSUXPWrtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723850454198-t8oheq7cjr247i03r48gm7lo7ii22hgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

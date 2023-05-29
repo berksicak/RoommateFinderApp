@@ -1,0 +1,108 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    card_view:cardBackgroundColor="#000000"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="İsim Soyisim"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_map"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="36dp"
+            android:src="@drawable/ic_map"
+            card_view:layout_constraintEnd_toStartOf="@+id/match_button"
+            card_view:layout_constraintTop_toBottomOf="@+id/image_profile" />
+
+        <TextView
+            android:id="@+id/text_distance"
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/image_map"
+            android:text="Uzaklık"
+            android:textSize="14sp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/text_name" />
+
+        <TextView
+            android:id="@+id/text_duration"
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/text_distance"
+            android:text="Kalacak Süre"
+            android:textSize="14sp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/text_distance" />
+
+        <TextView
+            android:id="@+id/text_department"
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/text_distance"
+            android:text="Bilgisayar mühendisliği"
+            android:textSize="14sp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/text_duration" />
+
+
+        <ImageView
+            android:id="@+id/image_profile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/text_distance"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="36dp"
+            android:src="@drawable/ic_profile"
+            card_view:layout_constraintEnd_toStartOf="@+id/match_button"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/match_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_distance"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toEndOf="@+id/image_profile"
+            android:text="@string/match_button"
+            android:textAllCaps="false"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
